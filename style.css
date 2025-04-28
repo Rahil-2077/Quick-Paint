@@ -1,0 +1,64 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ec1c24;
+  padding: 10px;
+  color: white;
+}
+
+.tools {
+  display: flex;
+  gap: 10px;
+}
+
+.tools button, .download button {
+  background: white;
+  color: #ec1c24;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tools button:hover, .download button:hover {
+  background: #f8d7da;
+}
+
+.download {
+  margin-right: 20px;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+canvas {
+  display: block;
+  background: white;
+  cursor: crosshair;
+}
+
+/* New Footer Styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ec1c24;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
